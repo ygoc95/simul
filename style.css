@@ -1,0 +1,7 @@
+.product-icon{
+    height: 100px;
+    width: 100px;
+}
+.zoom:hover img{
+    transform: scale(0.9); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

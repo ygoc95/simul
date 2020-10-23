@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>SİMULASYON DENEME</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="myTitle">Simülasyon deneme</h1>
+        <div id="wrapper">
+            <div class="canvas-container">
+              <canvas class="upper-canvas" id="upper"></canvas>              
+            </div>
+          </div>
+        <img src="images/interiors/room.png" id="room-bg" style="display: none;" alt="" srcset="">
+        <h2>Wallpaper</h2>
+        <div id="gallery" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-2 zoom">
+                            <a  onclick="buttonClicked(this.id,'wallpaper')" id="beige">
+                                <img class="img-fluid product-icon" src="images/icons/beige.jpg" alt="Image 6"/>
+                            </a>
+                        </div>
+        
+                        <div class="col-md-2 zoom">
+                            <a  onclick="buttonClicked(this.id,'wallpaper')" id="cupper-brown">
+                               <img class="img-fluid product-icon" src="images/icons/Cupper-Brown.jpg" alt="Image 7"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2>Floor</h2>
+        <div id="gallery" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-2 zoom">
+                            <a  onclick="buttonClicked(this.id,'floor')" id="beige">
+                                <img class="img-fluid product-icon" src="images/icons/beige.jpg" alt="Image 6"/>
+                            </a>
+                        </div>
+                        <div class="col-md-2 zoom">
+                            <a  onclick="buttonClicked(this.id,'floor')" id="cupper-brown">
+                                <img class="img-fluid product-icon" src="images/icons/Cupper-Brown.jpg" alt="Image 6"/>
+                            </a>
+                        </div>                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/4.1.0/fabric.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
